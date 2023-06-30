@@ -20,7 +20,7 @@ namespace support_machinery {
         -> auto
     {
         static_assert( is_unsigned_v<Unsigned> );
-        return static_cast<make_signed_t<size_t>>( value );
+        return static_cast<make_signed_t<Unsigned>>( value );
     }
 
     // The direct signed equivalent of `size_t` is convenient for `npos` < 0.
