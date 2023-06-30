@@ -1,0 +1,5 @@
+#include <windows.h>
+#include "resources.h"
+
+1               RT_MANIFEST     "resources/app-manifest.xml"
+IDR_SPRITES     BITMAP          "resources/sprites.bmp"
